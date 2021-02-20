@@ -1,7 +1,7 @@
 version: '2'
 services:
   jenkins:
-    image: jenkins/jenkins:lts
+    image: jenkins/jenkins:jdk11
     networks:
       - jenkins
     privileged: true
